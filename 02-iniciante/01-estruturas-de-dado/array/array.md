@@ -14,7 +14,7 @@ Você pode criar um array de duas maneiras:
 let frutas = ["maçã", "banana", "laranja"];
 ```
 
-2. **Usando o construtor Array()**:
+**2. Usando o construtor Array()**:
 
 ```js
 let frutas = new Array("maçã", "banana", "laranja");
