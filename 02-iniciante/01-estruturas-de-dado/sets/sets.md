@@ -72,7 +72,7 @@ console.log(numeros.size); // 0
 
 O Set oferece várias maneiras de iterar sobre seus valores:
 
-### 1. Usando forEach(): O método .forEach() executa uma função para cada valor do Set:
+### 1. Usando forEach(): O método .forEach() executa uma função para cada valor do Set
 
 ```js
 numeros.add(1);
@@ -88,7 +88,7 @@ numeros.forEach((valor) => {
 // 3
 ```
 
-### 2. Usando for...of: O Set pode ser percorrido com o laço for...of:
+### 2. Usando for...of: O Set pode ser percorrido com o laço for...of
 
 ```js
 for (let valor of numeros) {
@@ -102,14 +102,14 @@ for (let valor of numeros) {
 
 ## Propriedades e Métodos de Set
 
-### 1. .size: A propriedade .size retorna o número de valores no Set:
+### 1. .size: A propriedade .size retorna o número de valores no Set
 
 ```js
 let numeros = new Set([1, 2, 3, 4]);
 console.log(numeros.size); // 4
 ```
 
-### 2. .add(): O método .add() adiciona um valor ao Set, caso ele ainda não exista:
+### 2. .add(): O método .add() adiciona um valor ao Set, caso ele ainda não exista
 
 ```js
 numeros.add(5);
@@ -117,14 +117,14 @@ console.log(numeros);
 // Set { 1, 2, 3, 4, 5 }
 ```
 
-### 3. .has(): O método .has() retorna true se o valor existir no Set e false caso contrário:
+### 3. .has(): O método .has() retorna true se o valor existir no Set e false caso contrário
 
 ```js
 console.log(numeros.has(3)); // true
 console.log(numeros.has(6)); // false
 ```
 
-### 4. .delete(): O método .delete() remove um valor do Set:
+### 4. .delete(): O método .delete() remove um valor do Set
 
 ```js
 numeros.delete(3);
@@ -132,7 +132,7 @@ console.log(numeros);
 // Set { 1, 2, 4, 5 }
 ```
 
-### 5. .clear(): O método .clear() remove todos os valores do Set:
+### 5. .clear(): O método .clear() remove todos os valores do Set
 
 ```js
 numeros.clear();
@@ -146,14 +146,14 @@ console.log(numeros.size); // 0
 | Valores Duplicados  |   Permite valores duplicados    | Não permite valores duplicados  |
 | Ordem dos Elementos |   Mantém a ordem de inserção    |   Mantém a ordem de inserção    |
 |  Métodos de Acesso  | `.push()`, `.pop()`, `.shift()` | `.add()`, .`delete()`, `.has()` |
-|       Tamanho       |            `.length	`            |             `.size`             |
+|       Tamanho       |            `.length`            |             `.size`             |
 |      Iteração       |     `.forEach()`, `.map()`      |   `.forEach()`, **for...of**    |
 
 ## Quando usar Set ao invés de Array?
 
 Você deve usar um Set quando precisar garantir que não haja valores duplicados e não se preocupar com a ordem dos elementos. O Set é eficiente para operações de verificação de pertencimento e remoção de duplicatas.
 
-### Exemplo de uso do Set para remover duplicatas de um Array:
+### Exemplo de uso do Set para remover duplicatas de um Array
 
 ```js
 let array = [1, 2, 2, 3, 4, 4, 5];
