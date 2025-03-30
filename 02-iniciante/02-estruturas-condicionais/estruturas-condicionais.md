@@ -4,9 +4,9 @@ Estruturas condicionais permitem que seu código tome decisões com base em cond
 
 ## 🏗 Tipos de Estruturas Condicionais em JavaScript
 
-**1. if, else if, else**.
+**1. if, else if, else**. [**Clique aqui**](./if-else/if-else.md)
 
-**2. Operador ternário (? :)**.
+**2. Operador ternário (? :)**. [**Clique aqui**](./operador-ternario/operador-ternario.md)
 
 **3. switch**.
 
