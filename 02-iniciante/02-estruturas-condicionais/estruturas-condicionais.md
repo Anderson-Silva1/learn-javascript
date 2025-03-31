@@ -8,8 +8,8 @@ Estruturas condicionais permitem que seu código tome decisões com base em cond
 
 **2. Operador ternário (? :)**. [**Clique aqui**](./operador-ternario/operador-ternario.md)
 
-**3. switch**.
+**3. switch**. [**Clique aqui**](./switch/switch.md)
 
-**4. ?? (Nullish Coalescing Operator)**.
+**4. ?? (Nullish Coalescing Operator)**. [**Clique aqui**](./nullish-coalescing-operator/nullish-coalescing-operator.md)
 
-**5. Short-Circuiting (&& e ||)**.
+**5. Short-Circuiting (&& e ||)**. [**Clique aqui**](./short-circuiting/short-circuiting.md)
