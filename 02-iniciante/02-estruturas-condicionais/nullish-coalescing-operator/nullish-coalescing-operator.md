@@ -1,4 +1,4 @@
-# Operador de Coalescência Nula (??) em JavaScript
+# Nullish Coalescing Operator ou Operador de Coalescência Nula (??) em JavaScript
 
 O operador de coalescência nula (??) é um recurso introduzido no JavaScript com o ECMAScript 2020 (ES11). Ele é usado para fornecer um valor padrão somente quando um valor é null ou undefined, diferentemente do operador lógico ||, que considera também valores falsy como 0, "" e false.
 
@@ -9,9 +9,7 @@ let resultado = valor1 ?? valor2;
 ```
 
 - Se valor1 for diferente de null e undefined, ele será atribuído a resultado.
--
-
-Se valor1 for null ou undefined, valor2 será atribuído.
+- Se valor1 for null ou undefined, valor2 será atribuído.
 
 ## Diferença entre ?? e ||
 
