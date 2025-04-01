@@ -19,3 +19,17 @@ console.log(typeof object);
 let arr = [];
 console.log(arr instanceof Array); // true
 ```
+
+## Conversão de tipos
+
+### 1. toString()
+
+- Converte para Texto
+
+### 2. parseInt()
+
+- Converte para Número Inteiro
+
+### 3. parseFloat()
+
+- Converte para Número Decimal ou Fracionado

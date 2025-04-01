@@ -39,3 +39,11 @@ console.log(typeof num); // "number" - 'num' é um número.
 
 console.log(func instanceof Object); // true - Em JavaScript, funções são objetos, então func é uma instância de Object.
 console.log(num instanceof Object); // false - 'num' não é uma instância de Object, pois é um tipo primitivo.
+
+let numero = 10;
+let texto = "10";
+let numeroFloat = 10.0;
+
+console.log(parseInt(texto));
+console.log(toString(numeroFloat));
+console.log(parseFloat(numero));
